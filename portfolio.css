@@ -1,0 +1,68 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* General body styling */
+body {
+    font-family: 'Times New Roman';
+    line-height: 1.6;
+    background-color: #e9ece4da;
+}
+
+/* Header styling */
+header {
+    background-color: #e9ece4da;
+    color: black;
+    padding: 1em 2em;
+    text-align: left;
+}
+
+/* Navigation styling */
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+.ul{
+    margin-right: 200px;
+}
+nav .logo a {
+    color: #0b0909;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+     margin-right: 300px;
+}
+
+nav li {
+    margin: 0 1em;
+}
+button{
+    display: inline-block;
+    background: #559084;
+    color: white;
+    margin-left: 56px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+}
+.home-button{
+    width:40%;
+    margin-top: 30px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+nav a {
+    color: black;
+    text-decoration: none;
+}
+.nav-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin-left: 11px;
+}
